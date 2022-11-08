@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="chg_soc_definition">
+    <chg_soc_definition action="DELETE">
+        <active>true</active>
+        <blackout_span_color>#BDC0C4</blackout_span_color>
+        <condition table="change_request">active=true^ORDERBYundefined<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
+            <item endquery="false" field="" goto="false" newquery="false" operator="ORDERBY" or="false" value="undefined"/>
+        </condition>
+        <end_date_field>end_date</end_date_field>
+        <group_owner/>
+        <maintenance_span_color>#BDDCFC</maintenance_span_color>
+        <name>test</name>
+        <owner display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</owner>
+        <popover_left_col_fields>state,cmdb_ci,start_date,end_date</popover_left_col_fields>
+        <popover_right_col_fields>type,risk,impact,priority</popover_right_col_fields>
+        <share_groups/>
+        <share_roles/>
+        <share_users/>
+        <share_with/>
+        <show_blackout>true</show_blackout>
+        <show_maintenance>true</show_maintenance>
+        <start_date_field>start_date</start_date_field>
+        <sys_class_name>chg_soc_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-27 14:17:27</sys_created_on>
+        <sys_id>fe9bfea997f25110cc7ef0571153af4a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>test</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>chg_soc_definition_fe9bfea997f25110cc7ef0571153af4a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-27 14:17:27</sys_updated_on>
+        <table_name>change_request</table_name>
+    </chg_soc_definition>
+    <sys_translated_text action="DELETE" query="documentkey=fe9bfea997f25110cc7ef0571153af4a"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>9d3ec06fdb0337842f68c5970596198b</instance_id>
+        <instance_name>dev91276</instance_name>
+        <name>chg_soc_definition_fe9bfea997f25110cc7ef0571153af4a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="chg_soc_definition"><chg_soc_definition action="INSERT_OR_UPDATE"><active>true</active><blackout_span_color>#BDC0C4</blackout_span_color><condition table="change_request">active=true^ORDERBYundefined<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/><item endquery="false" field="" goto="false" newquery="false" operator="ORDERBY" or="false" value="undefined"/></condition><end_date_field>end_date</end_date_field><group_owner/><maintenance_span_color>#BDDCFC</maintenance_span_color><name>test</name><owner display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</owner><popover_left_col_fields>state,cmdb_ci,start_date,end_date</popover_left_col_fields><popover_right_col_fields>type,risk,impact,priority</popover_right_col_fields><share_groups/><share_roles/><share_users/><share_with/><show_blackout>true</show_blackout><show_maintenance>true</show_maintenance><start_date_field>start_date</start_date_field><sys_class_name>chg_soc_definition</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-10-27 14:17:27</sys_created_on><sys_id>fe9bfea997f25110cc7ef0571153af4a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>test</sys_name><sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>chg_soc_definition_fe9bfea997f25110cc7ef0571153af4a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-10-27 14:17:27</sys_updated_on><table_name>change_request</table_name></chg_soc_definition><sys_translated_text action="delete_multiple" query="documentkey=fe9bfea997f25110cc7ef0571153af4a"/></record_update>]]></payload>
+        <payload_hash>1815666804</payload_hash>
+        <record_name>test</record_name>
+        <reverted_from/>
+        <source>b92090c297021110cc7ef0571153afe5</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-27 14:17:27</sys_created_on>
+        <sys_id>be9bfea997f25110cc7ef0571153af4d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18419ce15270000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-27 14:17:27</sys_updated_on>
+        <type>Change Schedule Definition</type>
+        <update_guid>f69bfea946f251104d4f50bfeb35374d</update_guid>
+        <update_guid_history>f69bfea946f251104d4f50bfeb35374d:1815666804</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="test">42eb326d97f25110cc7ef0571153afc8</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-27 14:18:45</sys_created_on>
+        <sys_db_object display_value="" name="chg_soc_definition">chg_soc_definition</sys_db_object>
+        <sys_id>003af929c2f1479f8000584ef4822c91</sys_id>
+        <sys_metadata>fe9bfea997f25110cc7ef0571153af4a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>test</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>chg_soc_definition_fe9bfea997f25110cc7ef0571153af4a</sys_update_name>
+        <sys_update_version display_value="chg_soc_definition_fe9bfea997f25110cc7ef0571153af4a">be9bfea997f25110cc7ef0571153af4d</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-27 14:18:45</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
